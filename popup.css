@@ -1,0 +1,99 @@
+html{
+    width: max-content;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 750;
+}
+
+.currentSiteDangerLevelContainer, 
+.currentSiteRequestsCounterContainer, 
+.currentSiteAccessibleCookiesCounterContainer {
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.currentSiteAccessibleCookiesCounterText, 
+.currentSiteRequestsCounterText, 
+.currentSiteDangerLevelText {
+    font-size: small;
+    font-weight: 600;
+}
+
+#currentSiteDangerLevel, 
+#currentSiteDangerousRequestsCounter, 
+#currentSiteRequestsCounter, 
+#currentSiteAccessibleCookiesCounter {
+    font-weight: 700;
+    font-size: large;
+}
+
+.addWordToSeekContainer {
+    margin: auto;
+    margin-top: 15px;
+}
+
+#addWordToSeek_InputField {
+    margin-left: 25px; 
+}
+
+#addWordToSeek_ConfirmButton {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-style: groove;
+    border-color: #D87000;
+}
+
+#addWordToSeek_InputFieldLabel{
+    font-size: small;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#addWordToSeek_ConfirmButton:hover, 
+#addWordToSeek_ConfirmButton:focus {
+    outline   : none;
+    background: #000;
+    color   : #FFF;
+}
+
+#addWordToSeek_WordsContainer > p{
+    font-size: small;
+    font-weight: 600;
+    display: block;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#addWordToSeek_WordsList{
+    padding: 0;
+    margin-top: 7px;
+    list-style-type: none;
+}
+
+.addWordToSeek_ItemDiv {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.addWordToSeek_ItemDeleteBtn {
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border-color: #D87000;
+    border-style: groove;
+    font-size: small;
+    display: block;
+    margin: auto;
+}
+
+.addWordToSeek_ItemLi {
+    margin-bottom: 2px;
+    font-size: small;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+.severityFactorContainer > *{
+    margin: 25px;
+    font-size: large;
+    font-weight: 500;
+}

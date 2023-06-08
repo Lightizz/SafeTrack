@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<script src="popup.js" type="module"></script>
+	<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+	<p class="mainTitle">CookiesReader</p>
+	
+	<div class="currentSiteDangerLevelContainer">
+		<span class="currentSiteDangerLevelText">Niveau de danger du site: </span> 
+		<span id="currentSiteDangerLevel"></span>
+	</div>
+	<div class="currentSiteRequestsCounterContainer">
+		<span class="currentSiteRequestsCounterText">Nombre de requêtes [dangereuses/total]: </span> 
+		<span id="currentSiteDangerousRequestsCounter"></span>
+		<span id="currentSiteRequestsCounter"></span>
+	</div>
+	<div class="currentSiteAccessibleCookiesCounterContainer">
+		<span class="currentSiteAccessibleCookiesCounterText">Nombre de cookies accessibles et dangereux: </span> 
+		<span id="currentSiteAccessibleCookiesCounter"></span>
+	</div>
+
+	<div class="addWordToSeekContainer">
+		<form>
+			<label id="addWordToSeek_InputFieldLabel" for="addWordToSeek_InputField">Ajouter un mot/un bouton pour y être averti:</label>
+			<input type="text" name="addWordToSeek_InputField" id="addWordToSeek_InputField" minLength="2" maxLength="25" placeholder="mot/contenu d'un bouton...">
+			<button type="submit" id="addWordToSeek_ConfirmButton">Add</button>
+		</form>
+	</div>
+
+	<!-- Conteneur de la liste des mots à rechercher -->
+	<div id="addWordToSeek_WordsContainer">
+		<p>Sauvegardés: </p>
+		<ul id="addWordToSeek_WordsList"></ul>
+	</div>
+
+	<br>
+
+	<div id="summaryContainer">
+		<span>Résumé des CGU/CGV: </span>
+		<br>
+		<p id="summary"></p>
+	</div>
+</body>
+</html>
